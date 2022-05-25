@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@600&family=Roboto&family=Source+Sans+Pro:wght@600&family=Syncopate:wght@700&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1d2021;
+    color: white;
+}
+
+header {
+    margin: 1rem;
+}
+
+.mainSec {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.mainSec img {
+    width: 100vw;
+
+}
+
+.mainSec div {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    width: 50%;
+    height: 33%;
+    text-align: center;
+    border: 5px solid #1d2021;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+}
+
+.UAHK {
+    text-align: center;
+    margin: 5rem;
+}
+
+.UAHK h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.UAHK p {
+    margin: auto 10rem;
+    font-size: 18px;
+}
+
+.FlexArea {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.Flexer {
+    width: 22%;
+}
+.Flexer img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Flexer h4 {
+    font-size: 21px;
+    text-align: center;
+}
+
+button {
+    background: linear-gradient(25deg, rgb(117, 41, 117), rgb(27, 27, 165));
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.2rem;
+    font-size: 28px;
+    color: white;
+    margin: 3rem;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OpenHouse {
+    position: relative;
+}
+.OpenHouse img {
+    width: 100vw;
+}
+
+.OpenHouse div {
+    position: absolute;
+    top: 35%;
+    background-color: #1d2021;
+    width: 60%;
+}
+
+.HouseCenter {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.HouseCenter h3 {
+    font-size: 38px;
+}
+
+.HouseCenter p {
+    margin: auto 5rem;
+    font-size: 18px;
+}
+
+footer div {
+    gap: 5rem;
+    margin: 2rem;
+}
+
+footer div img {
+    width: 96px;
+}
+
+footer div a {
+    text-decoration: none;
+}
+
+.reqMain {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.reqMain img {
+    width: 100vw;
+}
+
+.reqMain div {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #1d2021;
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    margin: 1rem;
+}
+
+.reqMain form {
+    margin-top: 2rem;
+    font-size: 21px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+.reqMain form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#Output {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+#Output div h2 {
+    font-size: 38px;
+}
+
+#Output div {
+    font-size: 28px;
+    line-height: 2em;
+}
